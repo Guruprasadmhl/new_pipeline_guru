@@ -1,0 +1,1003 @@
+
+[centos@ip-10-0-1-94 ~]$ history
+    5  ls-lrt
+    6  ls -lrt
+    7  cd ../shell_scripts_Guruprasad/
+    8  ls -lrt
+    9  cd dir1/
+   10  l
+   11  ls -lrt
+   12  cd ..
+   13  ls -lrt
+   14  cd ..
+   15  ls -lrt
+   16  ls-lrt
+   17  ls -lrt
+   18  cd new
+   19  ls -lrt
+   20  vi sample1.txt
+   21  vi sample2.txt
+   22  sed '/linux/d' *,.txt
+   23  sed '/linux/d' *.txt
+   24  ls -lrt
+   25  cat sample1.txt
+   26  q!
+   27  sed '/linux/d' sample1.txt
+   28  vi sample1.txt
+   29  sed '/linux/d' sample1.txt
+   30  sed '/Linux/d' sample1.txt
+   31  sed '/Linux/d' sample1.txt >>sample3.txt
+   32  ls-lrt
+   33  ls -lrt
+   34  cat sample3.txt
+   35  vi removePattern.sh
+   36  sh removePattern.sh
+   37  ls -lrt
+   38  cat removePattern.sh
+   39  sed '/Linux/d' *.txt
+   40  vi removePattern.sh
+   41  sh removePattern.sh
+   42  vi removePattern.sh
+   43  sh removePattern.sh sample1.txt
+   44  ls -lrt
+   45  cat output.txt
+   46  vi removePattern.sh
+   47  sh removePattern.sh sample1.txt
+   48  vi removePattern.sh
+   49  sh removePattern.sh sample1.txt
+   50  vi removePattern.sh
+   51  ls -lrt
+   52  cat sample1.txt
+   53  cat output.txt
+   54  pwd
+   55  export PS1="[${LOGNAME}@$(hostname)] # "
+   56  export PS1="[${`pwd`}]"
+   57  export PS1="[{`pwd`}]"
+   58  export PS1="[`pwd`]"
+   59  pwd
+   60  ls-lrt
+   61  ls -lrt
+   62  vi change.sh
+   63  sh change.sh
+   64  export PS1="[${HOSTNAME}]"
+   65  sh change.sh
+   66  vi change.sh
+   67  whoami
+   68  \u
+   69  pwd
+   70  cd ..
+   71  ls -la
+   72  date +%H
+   73  date '+%H'
+   74  dae
+   75  date
+   76  date `+%H`
+   77  date `+%h`
+   78  date '+%H'
+   79  ls -lrt
+   80  PS1='\w\$'
+   81  PS1='\u\$'
+   82  PS1='\u@\w$'
+   83  pwd
+   84  sls -lrt
+   85  ls -lrt
+   86  cd new
+   87  PS1='\u@\w$'
+   88  pwd
+   89  ls -lrt
+   90  jenkins
+   91  ls -lrt
+   92  cd new_clone_git/
+   93  ls -lrt
+   94  ls lrt
+   95  ls -lrt
+   96  cd simple-java-maven-app/
+   97  ls -lrt
+   98  vi Jenkinsfile
+   99  cd jenkins/
+  100  ls -lrt
+  101  java --version
+  102  java -version
+  103  mvn -version
+  104  mvn --version
+  105  pwd
+  106  echo $MAVEN_HOME
+  107  ls -lrt
+  108  cat Jenkinsfile
+  109  sudo yum install fuse-sshfs
+  110  sudo apt-get install putty-tools
+  111  puttygen
+  112  sudo yum -y install epel-release
+  113  sudo yum -y install putty
+  114  ls -lrt
+  115  cd /home/centos/
+  116  ls -lrt
+  117  mkdir ppk
+  118  chmod 777 ppk/
+  119  cd ppk/
+  120  vi my.ppk
+  121  sudo puttygen my.ppk -O private-openssh -o my.pem
+  122  netstat
+  123  ifconfig
+  124  curl ifconfig
+  125  ifconfig
+  126  ip
+  127  ipaddress
+  128  ip address
+  129  ifconfig
+  130  ls -lrt
+  131  pwd
+  132  cd ppk/
+  133  ls -lr
+  134  chmod 777 my.pem
+  135  chmod 600 my.pem
+  136  mv my.pem /tmp/
+  137  chown jenkins:jenkins /tmp/my.pem
+  138  chown
+  139  chown jenkins
+  140  chown --help
+  141  sudo chown jenkins:jenkins /tmp/my.pem
+  142  cd -
+  143  cd new_clone_git/
+  144  curl ident.me
+  145  pwd
+  146  cd /tmp/
+  147  ls -lrt
+  148  date
+  149  java -jar my-app-2.1-SNAPSHOT.jar
+  150  ls -lrt
+  151  rm my-app-2.1-SNAPSHOT.jar
+  152  history
+  153  history | grep jenkins
+  154  cd /home/centos/
+  155  ls -lrt
+  156  cd jenkins/
+  157  history >> history.txt
+  158  cat history.txt | wc -l
+  159  cat history.txt
+  160  vi history.txt
+  161  ls -lt
+  162  ls -lrt
+  163  valt
+  164  wget https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
+  165  sudo mv bintray-jfrog-artifactory-rpms.repo /etc/yum.repos.d/
+  166  sudo yum install jfrog-artifactory-oss
+  167  sudo service artifactory start
+  168  sudo service artifactory status
+  169  service artifactory check
+  170  service artifactory status
+  171  service artifactory status -l
+  172  clear
+  173  ls -lrt
+  174  who
+  175  users
+  176  who
+  177  ls -lrt
+  178  rsyslog
+  179  syslog
+  180  sys
+  181  log
+  182  pwd
+  183  ls -la
+  184  pwd
+  185  ls -lrt
+  186  cd /usr/lib/jvm/
+  187  ls -lrt
+  188  cd java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
+  189  ls -lrt
+  190  pwd
+  191  ps aux
+  192  ps aux| grep centos
+  193  who
+  194  whoami
+  195  user
+  196  users
+  197  ps aux| grep centos
+  198  ps aux| grep centos | grep pts
+  199  ps aux| grep centos | grep pts/1
+  200  ps aux| grep centos | grep pts/1 | grerp sshd
+  201  ps aux| grep centos | grep pts/1 | grep sshd
+  202  history | grep git
+  203  curl ident.me
+  204  wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+  205  rpm -ivh mysql-community-release-el7-5.noarch.rpm
+  206  sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+  207  yum install mysql-server -y
+  208  sudo yum install mysql-server -y
+  209  ls-lrt
+  210  ls -lrt
+  211  sudo wget -O /etc/yum.repos.d/sonar.repo http://downloads.sourceforge.net/project/sonar-pkg/rpm/sonar.repo
+  212  zypper addrepo http://downloads.sourceforge.net/project/sonar-pkg/rpm sonar
+  213  sudo zypper addrepo http://downloads.sourceforge.net/project/sonar-pkg/rpm sonar
+  214  yum install sonar
+  215  sudo yum install sonar
+  216  sonar status
+  217  sudo service sonar status
+  218  sudo service sonar start
+  219  echo $JAVA_HOMW
+  220  echo $JENKINS_HOME
+  221  ls -lrt
+  222  cd new_clone_git/
+  223  ls -lrt
+  224  cd simple-java-maven-app/
+  225  ls lrt
+  226  ls -lrt
+  227  vi pom.xml
+  228  ls -lrt
+  229  find maven /home/centos/
+  230  cd /home/centos/.m2/
+  231  ls -lrt
+  232  cd repository/
+  233  ls -lrt
+  234  find settings ./
+  235  ls lrt
+  236  ls -lrt
+  237  cd org
+  238  ls -lrt
+  239  find settings ./
+  240  find settings.xml /home/centos/.m2/
+  241  cd ..
+  242  ls -lrt
+  243  pwd
+  244  cd ..
+  245  ls -lrt
+  246  ls -la
+  247  sudo service artifactory stop
+  248  sudo service artifactory status
+  249  kill -9 1147
+  250  ls -la
+  251  pwd
+  252  clear
+  253  pwd
+  254  cd new_docker_proj/docker/
+  255  ls -lrt
+  256  sudo docker images
+  257  sudo docker exec -it da095db4a907 /bin/bash
+  258  ls -lrt
+  259  mkdir new_docker_proj
+  260  chmod 777 new_docker_proj/
+  261  cd new_docker_proj/
+  262  gi clone git@github.com:Guruprasadmhl/cicd-pipeline-docker.git
+  263  git clone git@github.com:Guruprasadmhl/cicd-pipeline-docker.git
+  264  ls -lrt
+  265  cd cicd-pipeline-docker/
+  266  ls -lrt
+  267  vi Dockerfile
+  268  yum install docker
+  269  sudo yum install docker
+  270  lslrt
+  271  ls -lrt
+  272  df -hak
+  273  df -h
+  274  ps -hK
+  275  PS -UAX
+  276  ps -aux
+  277  sudo yum erase artifactory
+  278  sudo yum install docker
+  279  sudo service docker status
+  280  sudo service docker start
+  281  sudo docker info
+  282  sudo docker build -t node-app .
+  283  vi Dockerfile
+  284  ls -lrt
+  285  sudo docker build -t node-app .
+  286  ls -lrt
+  287  cd /usr/src/app
+  288  ls -lrt
+  289  sudo docker images
+  290  sudo docker run -p 8080:8080 -d node-app
+  291  sudo service jenkins status
+  292  sudo service jenkins stop
+  293  sudo service jenkins status
+  294  sudo docker run -p 8080:8080 -d node-app
+  295  curl ident.me
+  296  docker ps
+  297  SUDO docker ps
+  298  sudo docker ps
+  299  sudo docker exec -it 4ad550cc1832 /bin/bash
+  300  sudo docker stop 4ad550cc1832
+  301  sudo docker ps
+  302  sudo docker images
+  303  sudo docker rmi ba2d4f68b57f
+  304  sudo docker ps
+  305  sudo docker images
+  306  sudo docker ps -a
+  307  sudo docker rmi ba2d4f68b57f
+  308  docker ps -a
+  309  sudo docker ps -a
+  310  docker stop 3cb6b545737e
+  311  sudo docker stop 3cb6b545737e
+  312  docker ps -a
+  313  sudo docker ps -a
+  314  sudo docker rm 4ad550cc1832
+  315  sudo docker rm 3cb6b545737e
+  316  sudo docker ps -a
+  317  sudo docker images
+  318  sudo docker rmi ba2d4f68b57f
+  319  sudo groupadd docker
+  320  sudo usermod -aG docker $USER
+  321  history
+  322  ls-lrt
+  323  ls -lrt
+  324  sudo diocker images
+  325  sudo docker images
+  326  vi Dockerfile
+  327  ls -lrt
+  328  sudo service docker restart
+  329  sudo docker build -t node-app
+  330  sudo docker build -t node-app .
+  331  sudo docker images
+  332  sudo docker run -p 8080:8081 -d node-app
+  333  sudo docker ps
+  334  docker exec -it d7e57c181827 /bin/bash
+  335  sudo docker exec -it d7e57c181827 /bin/bash
+  336  sudo docker ps
+  337  sudo docker run -p 8080:8080 -d node-app
+  338  sudo docker run -p 8080:8082 -d node-app
+  339  sudo docker ps -a
+  340  sudo docker rmi f54dbac17652
+  341  sudo docker run -p 8081:8080 -d node-app
+  342  sudo docker ps -a
+  343  vi Dockerfile
+  344  history | grep restart
+  345  sudo service docker restart
+  346  sudo docker run -p 8080:8082 -d node-app
+  347  sudo docker run -p 8080:8080 -d node-app
+  348  sudo docker run -p 8080:8081 -d node-app
+  349  sudo docker ps -a
+  350  sudo docker run -p 8081:8080 -d node-app
+  351  sudo docker ps -a
+  352  sudo docker ps
+  353  sudo docker images
+  354  ls -lr
+  355  cd views/
+  356  l
+  357  ls -lr
+  358  vi layout.jade
+  359  cd ../
+  360  ls -lar
+  361  cd data/
+  362  ls -lar
+  363  cat trains.json
+  364  vi trains.json
+  365  ls -lrt
+  366  cd ../../../
+  367  pwd
+  368  sudo docker ps
+  369  ls -l
+  370  cd new_docker_proj/
+  371  ls -l
+  372  cd cicd-pipeline-docker/
+  373  ls -l
+  374  cat Dockerfile
+  375  sudo docker ps
+  376  sudo docker run -p 8082:8080 -d node-app
+  377  history | grep restart
+  378  sudo service docker restart
+  379  sudo docker run -p 8082:8082 -d node-app
+  380  sudo service docker restart
+  381  sudo docker stop 2198317ac609
+  382  sudo docker run -p 8080:8083 -d node-app
+  383  sudo docker ps
+  384  curl ident.me
+  385  sudo docker ps -a
+  386  vi Dockerfile
+  387  sudo docker build -t node-app .
+  388  sudo docker ps
+  389  sudo docker ps -a
+  390  sudo docker stop $(sudo docker ps -aq)
+  391  sudo docker rm $(sudo docker ps -aq)
+  392  sudo docker ps -a
+  393  sudo docker run -p 8080:8081 -d node-app
+  394  sudo docker ps -a
+  395  cd ..
+  396  ls -lrt
+  397  mkdir jenkins
+  398  chmod 777 jenkins/
+  399  mv jenkins/ Jenkins
+  400  ls lrt
+  401  ls -lrt
+  402  cd Jenkins/
+  403  vi Dockerfile
+  404  ls lrt
+  405  ls -lrt
+  406  docker build -t jenkins .
+  407  sudo docker build -t jenkins .
+  408  cd ..
+  409  git clone git@github.com:Guruprasadmhl/docker.git
+  410  ls -lrt
+  411  cd docker/
+  412  ls -lrt
+  413  vi Dockerfile
+  414  sudo docker build -t jenkins .
+  415  ls lrt
+  416  ls -lrt
+  417  cd ..
+  418  ls -lrt
+  419  cd Jenkins/
+  420  ls -lrt
+  421  chmod 777 Dockerfile
+  422  sudo docker build -t jenkins_new .
+  423  sudpo docker images
+  424  sudpodocker images
+  425  sudo docker images
+  426  docker run -p 8080:8080 -p 50000:50000 jenkins
+  427  sudo docker run -p 8080:8080 -p 50000:50000 /home/centos/:/var/jenkins_home jenkins
+  428  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  429  sudo docker ps -a
+  430  sudo docker rmi $(sudo docker ps -a)
+  431  sudo docker stop $(sudo docker ps -a)
+  432  history | grep stop
+  433  sudo docker stop $(su
+  434  history | grep rm
+  435  sudo docker rmi $(sudo docker ps -a)
+  436  sudo docker rmi $(sudo docker ps -aq)
+  437  ls -lrt
+  438  sudo docker images
+  439  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  440  cd /home/centos/
+  441  ls -lrt
+  442  ls -la
+  443  sudo chown 1000 volume_dir
+  444  sudo docker run -p 8080:8080 -p 50000:50000 -u /home/centos/:/var/jenkins_home jenkins
+  445  pwd
+  446  find passwd ./
+  447  cd new_docker_proj/docker/tools/
+  448  ls -lrt
+  449  cat shellcheck
+  450  q!
+  451  ls l-lrt
+  452  ls -lrt
+  453  cd ../
+  454  ls -lrt
+  455  cd ..
+  456  ls -lrt
+  457  cd docker/
+  458  ls -lrt
+  459  cd Dockerfile
+  460  vi Dockerfile
+  461  echo $JENKINS_HOME
+  462  sudo chown 1000 $JENKINS_HOME
+  463  vi Dockerfile
+  464  mksir /var/jenkins_home
+  465  mkdir /var/jenkins_home
+  466  sudo mkdir /var/jenkins_home
+  467  chmod 777 /var/jenkins_home/
+  468  sudo chmod 777 /var/jenkins_home/
+  469  sudo chown 1000 /var/jenkins_home/
+  470  sudo docker run -p 8080:8080 -p 50000:50000 -u /home/centos/:/var/jenkins_home jenkins
+  471  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  472  sudo vi /var/jenkins_home/copy_refernce_file.log
+  473  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  474  docker version
+  475  mkdir /var/tmp/Guru
+  476  cd new_docker_proj/docker/
+  477  [centos@ip-10-0-1-94 docker]$ sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  478  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  479  vi Dockerfile
+  480  id jenkins
+  481  useradd jenkins
+  482  sudo useradd jenkins
+  483  ls -lrt
+  484  vi Dockerfile
+  485  [centos@ip-10-0-1-94 docker]$ sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  486  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/var/jenkins_home jenkins
+  487  sudo docker ps
+  488  sudo dockr images
+  489  sudo docker images
+  490  sudo docker ps -a
+  491  sudo docker ps -aq
+  492  sudo docker rmi $(sudo docker ps -aq)
+  493  sudo docker rmi $(sudo docker ps -a)
+  494  sudo docker rm $(sudo docker ps -aq)
+  495  sudo docker ps -aq
+  496  sudo docker images
+  497  sudp docker rmi 9f02e7565fcd
+  498  sudo docker rmi 9f02e7565fcd
+  499  sudo docker images
+  500  sudo docker build -t jenkins .
+  501  udo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/home/centos jenkins
+  502  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/home/centos jenkins
+  503  istory
+  504  history
+  505  pwd
+  506  history >>/home/centos/history_04Feb
+  507  chmod 777 /home/centos/history_04Feb
+  508  i /home/centos/history_04Feb
+  509  vi /home/centos/history_04Feb
+  510  histry | more
+  511  history | more
+  512  sudo docker ps -a
+  513  sudo docker exec -it 376083f5f344 /bin/bash
+  514  ls -rlt
+  515  cd ..
+  516  ls -lrt
+  517  mkdir promethus
+  518  chmod 777 promethus
+  519  cd promethus/
+  520  docker pull prom/promethus
+  521  ls -lrt
+  522  docker clone git@github.com:Guruprasadmhl/prometheus-1.git
+  523  git clone git@github.com:Guruprasadmhl/prometheus-1.git
+  524  ls -lrt
+  525  cd prometheus-1/
+  526  l
+  527  ls -lrt
+  528  docker buld -t prometheus
+  529  docker biuld -t prometheus
+  530  docker build -t prometheus
+  531  docker build -t prometheus .
+  532  docker images
+  533  docker rmi f39a4749e3f4
+  534  docker images
+  535  ls -lrt
+  536  cd cmd/
+  537  ls -lrt
+  538  cd  prom
+  539  cd  prometheus/
+  540  pwd
+  541  ls -lrt
+  542  ls lrt
+  543  ls -lrt
+  544  docker images
+  545  docker ps
+  546  docker images
+  547  docker rmi fc29783a0963 9c5cc45bb9d6
+  548  docker images
+  549  sudo docker images
+  550  sudo docker exec -it da095db4a907
+  551  sudo docker exec -it da095db4a907 /bin/bash
+  552  sudo docker ps
+  553  sudo docker exec -it f034b17e9c2f  /bin/bash
+  554  pwd
+  555  sudo docker exec -it f034b17e9c2f  /bin/bash
+  556  sudo docker ps -a
+  557  sudo su stop $(sudo docker ps -a)
+  558  sudo su stop $(sudo docker ps -aq)
+  559  sudo docker  stop $(sudo docker ps -aq)
+  560  sudo docker exec -it f034b17e9c2f  /bin/bash
+  561  sudo docker ps -a
+  562  sudo docker ps -aq
+  563  sudo docker rm $(sudo docker ps -aq)
+  564  sudo docker ps -aq
+  565  sudo docker ps -a
+  566  pwd
+  567  cd new_docker_proj/docker/
+  568  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/home/centos jenkins_guru
+  569  sudo docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/home/centos jenkins
+  570  clear
+  571  ls -lrt
+  572  cd new_docker_proj/
+  573  ls -lrt
+  574  cd promethus/
+  575  ls -lrt
+  576  cd ../../
+  577  ls -
+  578  cd -
+  579  cd ..
+  580  ls -lrt
+  581  cd docker/
+  582  l
+  583  ls -lrt
+  584  vi Dockerfile
+  585  docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/home/centos jenkins-app
+  586  docker run -p 8080:8080 -p 50000:50000 -v /home/centos/:/home/centos jenkins
+  587  ls -lrt
+  588  cd ..
+  589  ls -lrt
+  590  cd docker/
+  591  ls -lrt
+  592  cd ../Jenkins/
+  593  ls -lrt
+  594  cd ..
+  595  ls -lrt
+  596  cd cicd-pipeline-docker/
+  597  ls -lrt
+  598  vi Dockerfile
+  599  docker images
+  600  docker ps -a
+  601  docker run -p 8080:8081 -d node-app
+  602  sudo service jenkins status
+  603  cd ..
+  604  ls -lrt
+  605  cd docker/
+  606  ls -lrt
+  607  docker ps -a
+  608  docker exec -it 8dccaf8277c4 /bin/bash
+  609  docker exec -it 376083f5f344  /bin/bash
+  610  docker start 8dccaf8277c4
+  611  docker stop 1f94644e5143
+  612  docker rm 1f94644e5143
+  613  docker stop 376083f5f344
+  614  docker rm 376083f5f344
+  615  docker start 8dccaf8277c4
+  616  docker ps
+  617  docker ps -a
+  618  docker ps
+  619  ls -lrt
+  620  docker ps -a
+  621  docker images
+  622  cd ../
+  623  ls -lrt
+  624  cd cicd-pipeline-docker/
+  625  ls -lrt
+  626  cat Jenkinsfile
+  627  vi Dockerfile
+  628  ls -lrt
+  629  docker rmi node-app
+  630  docker iages
+  631  docker images
+  632  docker build -t node-app .
+  633  docker run -p 8081:8081 -d node-app
+  634  dokcer ps -a
+  635  docker ps -a
+  636  docker stop cc6648a36085
+  637  docker run -p 8081:8081 -p 50000:50000 -v /home/centos/:/home/centos node-app
+  638  ps -eaf | grep 8080
+  639  ps -eaf | grep 8081
+  640  ls -lrt
+  641  vi Dockerfile
+  642  docker ps
+  643  cd ..
+  644  ls -lrt
+  645  cd docker/
+  646  ls -lrt
+  647  cat Jenkinsfile
+  648  ls -lrt
+  649  cd new_docker_proj/
+  650  ls -lr
+  651  rm -rf promethus/
+  652  ls -lrt
+  653  git clone git@github.com:Guruprasadmhl/prometheus.git
+  654  ls -lrt
+  655  cd prometheus/
+  656  ls -lrt
+  657  docker build -t prometheus_try
+  658  docker build -t prometheus_try .
+  659  cd ..
+  660  ls -lrt
+  661  cd Jenkins/
+  662  l
+  663  ls -lrt
+  664  vi Dockerfile
+  665  ls -lrt
+  666  cd ../
+  667  ls -lrt
+  668  cd docker/
+  669  ls -lrt
+  670  export DOCKER_ID_USER="gruuprasadmhl"
+  671  docker login
+  672  docker tag jenkins $DOCKER_ID_USER/jenkins
+  673  docker push $DOCKER_ID_USER/jenkins
+  674  sudo docker push $DOCKER_ID_USER/jenkins
+  675  ls -lrt
+  676  pwd
+  677  df -hak
+  678  df -hak /home/centos/
+  679  pwd
+  680  docker ps
+  681  docker exec -it 8dccaf8277c4 /bin/bash
+  682  ls -lrt
+  683  cd ..
+  684  ls -lrt
+  685  sudo service jenkins status
+  686  sudo service jenkins start
+  687  sudo service jenkins status
+  688  ps -eaf | grep jenkins
+  689  pwd
+  690  cd /home/centos/
+  691  ls -lrt
+  692  ls -la
+  693  cd /usr/share/
+  694  ls lrt
+  695  ls -lrt
+  696  cd /var/lib/jenkins/
+  697  ls -lrt
+  698  cat config.xml
+  699  cd ..
+  700  cd jenkins/
+  701  ls lrt
+  702  ls -lrt
+  703  grep -i 8080 *.xml
+  704  vi jenkins.model.JenkinsLocationConfiguration.xml
+  705  vi /etc/sysconfig/jenkins
+  706  cd /etc/sysconfig/jenkins
+  707  cd /etc/sysconfi
+  708  cd /etc/sysconfig
+  709  ls -lr
+  710  vi jenkins
+  711  chmod 777 jenkins
+  712  $PS1=777
+  713  $PS1=u:777
+  714  docker ps -a
+  715  history | tail -50
+  716  history | tail -100
+  717  clea
+  718  docker ps
+  719  docker stop 8dccaf8277c4
+  720  docker images
+  721  docker service status
+  722  service docker status
+  723  service jenkins status
+  724  sudo service jenkins status
+  725  sudo service jenkins stop
+  726  sudo service jenkins start
+  727  sudo service jenkins status
+  728  ps -eaf | grep 8080
+  729  ls -lrt
+  730  cd /home/centos/
+  731  ls -lrt
+  732  cd new_docker_proj/
+  733  ls -lrt
+  734  rm -rf prometheus/
+  735  df -hak ./
+  736  sudo service jenkins stop
+  737  sudo service jenkins status
+  738  docker ps -a
+  739  docker stop cc6648a36085 8dccaf8277c4 99c0e26b24cf
+  740  docker rmi cc6648a36085 8dccaf8277c4 99c0e26b24cf
+  741  docker rm cc6648a36085 8dccaf8277c4 99c0e26b24cf
+  742  docker images
+  743  docker rmi da095db4a907 da095db4a907  4e69ee8319cd
+  744  docker images
+  745  docker stop da095db4a907
+  746  docker rmi da095db4a907
+  747  docker ps -a
+  748  docker ps
+  749  ls -lrt
+  750  git branch
+  751  cd Jenkins/
+  752  ls -lrt
+  753  cd ../docker/
+  754  ls -lrt
+  755  git branch
+  756  cd ..
+  757  rm -rf docker/
+  758  mkdir docker
+  759  chmod 777 docker/
+  760  cd docker/
+  761  gti clone git@github.com:Guruprasadmhl/docker.git
+  762  git clone git@github.com:Guruprasadmhl/docker.git
+  763  ls -lrt
+  764  cd docker/
+  765  ls -lrt
+  766  systemctl status httpd
+  767  systemctl status
+  768  systemctl status -a
+  769  ps -hak
+  770  ps -a
+  771  service --status-all
+  772  sudo service -s-status-all
+  773  sudo service --status-all
+  774  sysstemctl stop jenkins.service
+  775  sudo service jenkins.service stop
+  776  sudo docker system prune
+  777  sudo docker run -p 8080:8080 -p 5000:5000 -v jenkins_home:/var/jenkins_home hikkan/jenkins-docker:lts
+  778  sudo docker run -p 8080:8080 -p 5000:5000 -v jenkins_home:/var/jenkins_home h1kkan/jenkins-docker:lts
+  779  sudo docker system prune
+  780  sudo docker run -p 8080:8080 -p 5000:5000 -v jenkins_home:/var/jenkins_home h1kkan/jenkins-docker:lts
+  781  sudo docker system prune
+  782  docker images
+  783  pwd
+  784  ls -lrt
+  785  ls -la
+  786  docker images
+  787  docker run -p 8080:8080 -p 50000:50000 -v /home/centos:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins
+  788  docker run -p 8080:8080 -p 50000:50000 -v /home/centos:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker
+  789  docker run -p 8080:8080 -p 50000:50000 -v /home/centos:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker:lts
+  790  docker run -p 8080:8080 -p 50000:50000 -v /home/centos:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock jenkins
+  791  clear
+  792  docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker
+  793  docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker:lts
+  794  sudo docker system prune
+  795  docker ps -a
+  796  docker run -u root -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker:lts
+  797  sudo docker system prune
+  798  docker ps -a
+  799  top
+  800  ps -ef
+  801  ps -eaf | grep sonar
+  802  sudo service sonar status
+  803  kill -9 1257
+  804  sudo kill -9 1257
+  805  sudo service sonar status
+  806  docker run -u root -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker:lts
+  807  docker ps -a
+  808  sudo docker system prune
+  809  docker run -u root -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock h1kkan/jenkins-docker:lts
+  810  get enforce -0
+  811  set enforce -0
+  812  getenforc
+  813  getenforce
+  814  setenforce 0
+  815  sudo setenforce 0
+  816  sudo service artifactory status
+  817  sudo service jenkins status
+  818  sudo service --status-all
+  819  cleat
+  820  cd /var/jenkins_home/
+  821  ls -lrt
+  822  history | head -200
+  823  centos@34.213.163.2
+  824   cd ../shell_scripts_Guruprasad/
+  825  sudo service mysql
+  826  sudo service mysql status
+  827  sudo service mysql stop
+  828  rpm -qa
+  829  rpm -qa | grep mysql
+  830  sudo yum erase mysql
+  831  rpm -qa | grep mysql
+  832  sudo yum erase mysql*
+  833  rpm -qa | grep mysql
+  834  sudo yum remove
+  835  sudo yum remove mysql-community-release-el7-5.noarch
+  836  sudo yum remove mysql-community-common-5.6.43-2.el7.x86_64
+  837  rpm -qa | grep mysql
+  838  rpm -qa | rep mysql
+  839  rpm -qa | grep mysql
+  840  rpm -qa | grep sql
+  841  clear
+  842  ls -lrt
+  843  docler ps -a
+  844  docker ps -a
+  845  docker service status
+  846  sudo service docker status
+  847  docker ps -a
+  848  docker ps
+  849  docker start f0b7ce3606e0
+  850  docker ps
+  851  docker exec -it f0b7ce3606e0 /bin/bas
+  852  docker exec -it f0b7ce3606e0 /bin/bash
+  853  ls -lrt
+  854  cd new_docker_proj/docker/
+  855  ls -lrt
+  856  cd docker/
+  857  ls -lrt
+  858  cat README.md
+  859  ls -lrt
+  860  cat Dockerfile
+  861  cd ..
+  862  ccd -
+  863  ls -lrt
+  864  cd docker/
+  865  ls -lrt
+  866  vi plugins.txt
+  867  docker ps -a
+  868  pwd
+  869  ls -lrt
+  870  docker images
+  871  sudo docker ps -a
+  872  sudo service docker start
+  873  sudo docker ps -a
+  874  sudo docker f0b7ce3606e0 start
+  875  history | grep start
+  876  history | grep stop
+  877  docker ps -a
+  878  sudo docker start f0b7ce3606e0
+  879  docker ps -a
+  880  sudo docker ps -a
+  881  curl ident.me
+  882  ps -a | grep 8080
+  883  ps -a
+  884  ps -a
+  885  ps -aux | grep 8080
+  886  docker ps -1
+  887  docker ps -a
+  888  sudo docker status f0b7ce3606e0
+  889  sudo service jenkins status
+  890  sudo service jenkins stop
+  891  sudo service jenkins status
+  892  sudo docker start f0b7ce3606e0
+  893  docker ps -a
+  894  idnet.me
+  895  ident.me
+  896  curl ident.e
+  897  curl ident.me
+  898  docker exec -it f0b7ce3606e0 /bin/bash
+  899  ls -lrt
+  900  cd /var/jenkins_home/
+  901  ls -lrt
+  902  cat copy_refernce_file.log
+  903  cd ..
+  904  ls -lrt
+  905  cd ..
+  906  ls -lrt
+  907  docler ps -a
+  908  docker ps -a
+  909  docker stop f0b7ce3606e0
+  910  dockcer ps -a
+  911  docker ps -a
+  912  docker stop f0b7ce3606e0
+  913  docker restart f0b7ce3606e0
+  914  ps -aux | grep 8080
+  915  ls lrt
+  916  ls -lrt
+  917  pwd
+  918  cd /home/centos/
+  919  ls -lrt
+  920  cd new_docker_proj/
+  921  ls -lrt
+  922  cd cicd-pipeline-docker/
+  923  ls -lrt
+  924  cat Dockerfile
+  925  cat ../docker/docker/Dockerfile
+  926  ls -lrt
+  927  cat README.md
+  928  ls -lrt
+  929  cat Dockerfile
+  930  docker images
+  931  docker rmi f1e53dbc94e9
+  932  history | grep 50000
+  933  ls -lrt
+  934  docker images
+  935  docker run -p 8081:8081 node-app
+  936  cd new_docker_proj/
+  937  ls -lrt
+  938  cd cicd-pipeline-docker/
+  939  ls -lrt
+  940  docker build -t node-app .
+  941  docker images
+  942  docker run -t 8081:8081 noe-app
+  943  docker run -t 8081:8081 node-app
+  944  docker run -p 8081:8081 -d node-app
+  945  docker ps -a
+  946  docker exec -it 83dfbe919551 /bin/bash
+  947  docker run -d -v jenkins_home:/var/jenkins_home:z  8081:8081 -p 50001:50001 -d node-app
+  948  docker run -d -v jenkins_home:/var/jenkins_home:z  8090:8081 -p 50001:50001 -d node-app
+  949  docker ps -a
+  950  docker stop 83dfbe919551 f0b7ce3606e0
+  951  docker ps -a
+  952  ps -aux | grep 50000
+  953  ps -aux | grep 8080
+  954  docker run -d -v jenkins_home:/var/jenkins_home:z  8080:8081 -p 5000:50000 -d node-app
+  955  docker run -d -v jenkins_home:/var/jenkins_home  8080:8081 -p 5000:50000 -d node-app
+  956  history | grep 50000
+  957  docker run -u root -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock node-app
+  958  yum uninstall docker
+  959  yum docker uninstall
+  960  sudo yum remove docker
+  961  sudo service docker status
+  962  sudo service docker stop
+  963  rpm -aq
+  964  rpm -aq | grep docker
+  965  sudo yum remove docker                   docker-client                   docker-client-latest                   docker-common                   docker-latest                   docker-latest-logrotate                   docker-logrotate                   docker-engine
+  966  rpm -aq | grep docker
+  967  ls -lrt
+  968  cd new_docker_proj/
+  969  ls -lty
+  970  ls -lrt
+  971  sudo -i export PATH=$PATH:/usr/local/bin
+  972  yum update
+  973  sudo yum update
+  974  yum install yum-utils device-mapper-persistent-data lvm2
+  975  sudo yum install yum-utils device-mapper-persistent-data lvm2
+  976  sudo -i
+  977  pwd
+  978  sudo -i
+  979  ls -lrt
+  980  cd java-pro
+  981  l
+  982  ll
+  983  cp * ../java-project/
+  984  chmod 777 *
+  985  sudo chmod 777 *
+  986  cp * ../java-project/
+  987  sudo cp * ../java-project/
+  988  cpdir src/../java-proj
+  989  cpdir src/ ../java-project/
+  990  sudo cp -r * ../java-project/
+  991  cd ../java-project/
+  992  ls -lrt
+  993  chmod 777 *
+  994  sudo chmod 777 *
+  995  git add master
+  996  git add pom.xml
+  997  cd ..
+  998  ls -lrt
+  999  kubectl
+ 1000  kubectl version
+ 1001  pwd
+ 1002  docker ps -a
+ 1003  ihistory
+ 1004  history
+[centos@ip-10-0-1-94 ~]$
